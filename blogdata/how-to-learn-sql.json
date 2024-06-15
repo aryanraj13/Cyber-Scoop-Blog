@@ -2,5 +2,6 @@
     "title": "Mastering SQL Queries for Data Analysis",
     "content": "Structured Query Language (SQL) is the foundation of relational database management systems (RDBMS). SQL allows you to query, update, and manipulate data stored in a database efficiently. Key components of SQL include SELECT statements for querying data, INSERT, UPDATE, and DELETE for modifying data, and JOIN clauses for combining data from multiple tables. Advanced SQL techniques involve subqueries, window functions, and Common Table Expressions (CTEs) to perform complex analytical tasks. Mastering SQL also requires understanding indexes, constraints, and transaction controls to ensure data integrity and optimize performance. SQL's declarative nature makes it a powerful tool for data analysis, enabling users to extract meaningful insights from large datasets.",
     "author": "Robert Johnson",
+    "metadesc":"Structured Query Language (SQL) is the foundation of relational database management systems (RDBMS). SQL allows you to query, update, and manipulate data stored in a database efficiently. Key components of SQL include SELECT statements for querying data, INSERT, UPDATE, and DELETE for modifying data.",
     "slug":"how-to-learn-sql"
 }

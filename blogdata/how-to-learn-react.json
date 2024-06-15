@@ -2,5 +2,6 @@
     "title": "Exploring React for Modern Web Development",
     "content": "React is a popular JavaScript library for building user interfaces, particularly single-page applications (SPAs). Developed by Facebook, React's component-based architecture allows developers to create reusable UI components that manage their state. The virtual DOM in React improves performance by updating only the parts of the page that have changed. React's unidirectional data flow simplifies the logic and makes applications more predictable. JSX, a syntax extension for JavaScript, is used to describe what the UI should look like. React's ecosystem includes tools like Redux for state management and Next.js for server-side rendering. Mastering React involves understanding these concepts and leveraging them to build dynamic, high-performance web applications.",
     "author": "Emily Davis",
+    "metadesc":"React is a popular JavaScript library for building user interfaces, particularly single-page applications (SPAs). Developed by Facebook, React's component-based architecture allows developers to create reusable UI components that manage their state.",
     "slug":"how-to-learn-react"
 }

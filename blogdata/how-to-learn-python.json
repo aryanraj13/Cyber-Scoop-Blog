@@ -2,5 +2,6 @@
 "title": "Understanding Python Data Structures", 
 "content": "Python is a versatile programming language widely used for various applications. One of its core strengths is the rich set of built-in data structures that simplify complex data manipulation tasks. The primary data structures in Python include lists, tuples, sets, and dictionaries. Lists are mutable and ordered, making them suitable for collections of items that can change. Tuples are immutable and ordered, used for fixed collections of items. Sets are unordered collections of unique items, ideal for membership tests and eliminating duplicates. Dictionaries are mutable mappings of keys to values, offering efficient lookups. Python also supports more advanced structures like namedtuples and collections modules, providing additional functionality for managing data.", 
 "author": "Sarah Lee",
+"metadesc":"Python is a versatile programming language widely used for various applications. One of its core strengths is the rich set of built-in data structures that simplify complex data manipulation tasks",
 "slug":"how-to-learn-python"
 }
