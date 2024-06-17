@@ -1,0 +1,27 @@
+
+.container { 
+    width: 80%;  overflow: hidden; padding: 20px; 
+     line-height: 1.6; padding: 0;
+    margin:45px auto;
+    max-width: 45vw;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;} 
+
+.sociallinks a { margin: 0 10px; text-decoration: none; color: #0056b3; } 
+
+.sociallinks a:hover { text-decoration: underline; }
+
+@media only screen and (max-width: 600px) {
+    .container { 
+        width: 80%;  overflow: hidden; padding: 20px; 
+        font-family: Arial, sans-serif; line-height: 1.6; padding: 0;
+        margin:45px auto;
+        max-width: 78vw;
+        margin: auto;
+        margin-top: 40px;
+    } 
+}

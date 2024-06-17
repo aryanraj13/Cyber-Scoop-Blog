@@ -17,3 +17,10 @@
     padding:0 18rem;
     margin-top: 30px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .container{
+      padding:0 2rem;
+      margin-top: 30px;
+    }
+}

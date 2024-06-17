@@ -27,7 +27,10 @@ const slug = (props) => {
       <h1>{blog && blog.title}</h1>
       </div>
       <hr/>
-      {blog && <div dangerouslySetInnerHTML={createMarkup(blog.content)}></div>}
+      {blog && <div className={styles.description} dangerouslySetInnerHTML={createMarkup(blog.content)}></div>}
+      <div className={styles.author}>
+        By - {blog.author}
+      </div>
       </main>
     </div>
   )

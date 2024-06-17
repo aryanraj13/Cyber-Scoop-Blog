@@ -50,26 +50,26 @@ console.error('Error:', error);
   
   return (
     <div className={styles.container}>
-      <h1>Contact Us</h1>
+      <h1 className={styles.title}>Contact Us</h1>
       <form onSubmit={handleSubmit}>
-      <div className="mb-3">
+      <div className={styles.mb3}>
     <label htmlFor="name" className={styles.formlabel}>Enter your name</label>
-    <input type="text" className="form-control" value={name} onChange= {handleChange} id="name" name="name" aria-describedby="emailHelp"/>
+    <input type="text" className={styles.input} value={name} onChange= {handleChange} id="name" name="name" aria-describedby="emailHelp"/>
   </div>
-  <div className="mb-3">
+  <div className={styles.mb3}>
     <label htmlFor="email" className={styles.formlabel}>Email address</label>
-    <input type="email" className="form-control" value={email} onChange= {handleChange} name="email" id="email" aria-describedby="emailHelp"/>
-    <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
+    <input type="email" className={styles.input} value={email} onChange= {handleChange} name="email" id="email" aria-describedby="emailHelp"/>
+    
   </div>
-  <div className="mb-3">
+  <div className={styles.mb3}>
     <label htmlFor="phone" className={styles.formlabel}>Phone No.</label>
-    <input type="number" className="form-control" value={phone} onChange= {handleChange} name="phone" id="phone"/>
+    <input type="number" className={styles.input} value={phone} onChange= {handleChange} name="phone" id="phone" required/>
   </div>
-  <div className="mb-3">
-  <label htmlFor="desc">Elaborate your concern</label>
-  <textarea value = {desc} name="desc" onChange= {handleChange} className="form-control" placeholder="Write your concern here" id="desc"/>  
+  <div className={styles.mb3}>
+  <label className={styles.formlabel} htmlFor="desc">Elaborate your concern</label>
+  <textarea className={styles.input} value = {desc} name="desc" onChange= {handleChange} placeholder="Write your concern here" id="desc"/>  
   </div>
-  <button type="submit" className="btn btn-primary">Submit</button>
+  <button type="submit" className={styles.btn}>Submit</button>
 </form>
     </div>
   )
