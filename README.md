@@ -12,8 +12,6 @@ The Cyber Scoop Blog App is a modern web application built with Next.js, designe
 
 ## Features
 
-- **User Authentication:** Secure login and authentication system.
-- **Post Creation and Management:** Easily create, edit, and manage blog posts.
 - **Rich Text Editor:** Write and format posts using a user-friendly editor.
 - **Tagging and Categories:** Organize posts with tags and categories for easy navigation.
 
@@ -21,10 +19,8 @@ The Cyber Scoop Blog App is a modern web application built with Next.js, designe
 
 ![alt text](https://github.com/aryanraj13/Cyber-Scoop-Blog/blob/main/public/contact.png?raw=true)
 
-- **Comments and Interactivity:** Engage with readers through comments and likes on posts.
 - **Responsive Design:** Optimized for various screen sizes and devices.
 - **SEO-Friendly:** Built-in SEO features to enhance visibility on search engines.
-- **RSS Feeds:** Subscribe to blog updates using RSS feeds.
 
 
 ## Installation
