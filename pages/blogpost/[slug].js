@@ -28,6 +28,7 @@ const Slug = (props) => {
   
 };
 
+
 export async function getStaticPaths() {
   let allb = await fs.promises.readdir(`blogdata`)
   allb = allb.map((item)=>{
