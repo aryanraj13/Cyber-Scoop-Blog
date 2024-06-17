@@ -23,7 +23,6 @@ body: JSON.stringify(data),
     })
 .then(response => response.text())
 .then(data => {
-console.log('Success:', data);
 alert("Thanks for contacting us")
 setPhone('')
 setName('')
@@ -45,7 +44,6 @@ console.error('Error:', error);
     }if(e.target.name=='name'){
       setName(e.target.value)
     }
-    console.log(e,"change");
   }
   
   return (

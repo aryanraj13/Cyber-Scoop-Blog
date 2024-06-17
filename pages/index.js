@@ -21,7 +21,7 @@ export default function Home() {
           &lt;Cyber Scoop/&gt;
         </h1>
 
-        <Image className={styles.myimg} alt = "Home image" src="/home.jpg" width={540} height={395}></Image>
+        <Image className={styles.myimg} alt = "Home image" src="/home.jpg" width={540} height={395} priority></Image>
 
         <p className={styles.description} style={{textAlign:"center"}}>
           A blog for scoopers looking to scoop code and share insights into the latest trends in technology, programming, and software development. This platform serves as a hub for enthusiasts and professionals alike to exchange knowledge, discuss new ideas, and foster a community of like-minded individuals passionate about coding and tech innovation.

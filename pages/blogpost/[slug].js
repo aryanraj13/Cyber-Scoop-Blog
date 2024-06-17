@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { useRouter } from 'next/router'
 import styles from '../../styles/BlogPost.module.css'
 
 //Step1: Find the file corresponding to the slug
